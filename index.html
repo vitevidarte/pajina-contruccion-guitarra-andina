@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="no-js" lang="Es">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Guitarra Andina</title>
+    <meta name="description" content>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content>
+    <meta property="og:type" content>
+    <meta property="og:url" content>
+    <meta property="og:image" content>
+
+    <link href="site.webmanifest" rel="manifest">
+    <link href="icon.png" rel="apple-touch-icon">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <meta name="theme-color" content="#fafafa">
+    <link href="css/all.css" rel="stylesheet">
+
+  </head>
+  <!-- ************************************************ -->
+
+  <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+
+  <!-- ************************************************ -->
+
+  <body>
+    <header class="site-header">
+      <div class="hero">
+        <div class="contenido-header">
+          <nav class="redes-sociales">
+            <!--aqui  son los  iconos  -->
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </nav>
+          <div class="informacion-del-evento">
+            <div class="clearfix">
+              <p class="fecha">
+                <i class="fas fa-calendar-alt"></i>16 - Julio - 2020
+              </p>
+              <p class="ciudad">
+                <i class="fas fa-map-marker-alt"></i>Arequipa , Perú
+              </p>
+            </div>
+
+            <!--la informacion del evento -->
+            <h1 class="nombre-sitio">Guitarra Andina</h1>
+            <p class="slogan">
+              La Mejor Conferencia de <span>Música Peruana</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- fondo de imagen -->
+    </header>
+    <!-- navegacion de menu-->
+    <div class="menu-barra">
+      <div class="contenedor clearfix">
+        <div class="logo">
+          <img src="img/img/logo.svg" alt="logotipo-de-la-empresa">
+        </div>
+        <div class="menu-movil">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navegacion-principal clearfix">
+          <a href="#"> <i class="fas fa-book-reader"></i>Conferencia</a>
+          <a href="#"> <i class="fas fa-calendar-check"></i>Calendario</a>
+          <a href="#"> <i class="fas fa-users"></i>Invitados</a>
+          <a href="registro.html"><i class="fas fa-edit"></i>Reservaciones</a>
+        </nav>
+      </div>
+    </div>
+    <section class="seccion contenedor">
+      <h2>La mejor conferencia de Música Peruana</h2>
+      <p>
+        Regresa por una semana el tradicional festival de Guitarra del Icpna. En
+        esta edición se apreciarán distintas tendencias y estilos de
+        interpretación de este instrumento musical cultivados por artistas de
+        diferentes partes del mundo.
+      </p>
+      <p>
+        Uno de los eventos musicales más emblemáticos de Lima, el Festival
+        Internacional de Guitarra organizado por el Icpna, se inicia hoy
+        presentando un especial repertorio que abarca cuatro continentes.
+        Participan eximios representantes provenientes de Europa, Asia y
+        América.
+      </p>
+      <p>
+        Por ejemplo, hoy, en la noche inaugural, toca el guitarrista
+        norteamericano Adam Levin, quien cuenta con una serie de becas, premios
+        y distinciones tanto en Estados Unidos como en Europa.
+      </p>
+    </section>
+    <section class="programa">
+      <div class="contenedor-video">
+        <video autoplay loop poster="/img/img/bg-talleres.jpg">
+          <source src="img/video/video.mp4" type="video/mp4">
+          <source src="img/video/video.webm" type="video/webm">
+          <source src="img/video/video.ogv" type="video/ogg">
+        </video>
+        <!-- contendor  video fin -->
+      </div>
+      <div class="contenido-programa">
+        <div class="contenedor">
+          <div class="programa-evento">
+            <h2>Programa Del Evento</h2>
+            <nav class="menu-programa">
+              <a href="#talleres"><i class="fas fa-code"></i>Talleres</a>
+              <a href="#conferencias"><i class="fas fa-comment"></i>Conferencias</a>
+              <a href="#seminarios"><i class="fas fa-university"></i>Seminarios</a>
+            </nav>
+            <div class="info-curso ocultar clearfix" id="talleres">
+              <div class="detalle-evento">
+                <h3>HTML5, CSS3, Javascript</h3>
+                <p><i class="far fa-clock"></i>16:00 hrs</p>
+                <p><i class="fas fa-calendar-alt"></i>16 de Jul</p>
+                <p><i class="fas fa-user"></i>Juan Pablo de la Torre</p>
+              </div>
+              <div class="detalle-evento">
+                <h3>Reponsive Web Desing</h3>
+                <p><i class="far fa-clock"></i>20:00 hrs</p>
+                <p><i class="fas fa-calendar-alt"></i>16 de Jul</p>
+                <p><i class="fas fa-user"></i>Juan Pablo de la Torre</p>
+              </div>
+              <a class="button float-right" href="#">Ver Todos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- secion de invitados comienzo -->
+    <section class="invitados contenedor seccion">
+      <h2>Nuestros Invitados</h2>
+      <ul class="lista-invitados clearfix">
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado1.jpg" alt="imagen invitado">
+            <p>Rafael Bautista</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado2.jpg" alt="imagen invitado">
+            <p>Shary Herrera</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado3.jpg" alt="imagen invitado">
+            <p>Gregorio Sanches</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado4.jpg" alt="imagen invitado">
+            <p>Susana Rivera</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado5.jpg" alt="imagen invitado">
+            <p>Harol Garcia</p>
+          </div>
+        </li>
+        <li>
+          <div class="invitado">
+            <img src="img/img/invitado6.jpg" alt="imagen invitado">
+            <p>Susan Sanches</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- secion de invitados final -->
+    <!-- secion contador inicio-->
+    <div class="contador parallax">
+      <div class="contenedor">
+        <ul class="resumen-evento clearfix">
+          <li>
+            <p class="numero">6</p>Invitados
+          </li>
+          <li>
+            <p class="numero">15</p>Talleres
+          </li>
+          <li>
+            <p class="numero">3</p>Dias
+          </li>
+          <li>
+            <p class="numero">9</p>Conferencias
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- secion contador final -->
+    <!-- precios -->
+    <section class="precios seccion">
+      <h2>Precios</h2>
+      <div class="contenedor">
+        <ul class="lista-precios clearfix">
+          <li>
+            <div class="tabla-precio">
+              <h3>Pase Por Dia</h3>
+              <p class="numero">s/30</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas Las Conferencias</li>
+                <li>Todo Los Talleres</li>
+              </ul>
+              <a class="button hollow" href="#">Comprar</a>
+            </div>
+          </li>
+          <li>
+            <div class="tabla-precio">
+              <h3>Todo Los Dias</h3>
+              <p class="numero">s/50</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas Las Conferencias</li>
+                <li>Todo Los Talleres</li>
+              </ul>
+              <a class="button" href="#">Comprar</a>
+            </div>
+          </li>
+          <li>
+            <div class="tabla-precio">
+              <h3>Pase Por 2 Dias</h3>
+              <p class="numero">s/45</p>
+              <ul>
+                <li>Bocadillos Gratis</li>
+                <li>Todas Las Conferencias</li>
+                <li>Todo Los Talleres</li>
+              </ul>
+              <a class="button hollow" href="#">Comprar</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- fin precios -->
+
+    <!-- GOOGLE MAP  -->
+    <div class="mapa" id="mapa">
+      <!-- a qui datos se llenaran por medio de  javascript-->
+    </div>
+    <!-- FIN GOOGLE MAP-->
+    <section class="seccion">
+      <h2>Testimoniales</h2>
+      <div class="testimoniales contador contenedor clearfix">
+        <div class="testimonial">
+          <blockquote alt="la cita" cite="http//de la cita de quien lo obrubimos">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+              illum odio a quis! Maxime iste veritatis quis! Similique esse
+              voluptate, suscipit quo praesentium dolor sint explicabo officiis
+              impedit earum ducimus.
+            </p>
+            <footer class="info-testimonial clearfix">
+              <img src="img/img/testimonial.jpg" alt="foto testimonial">
+              <cite>
+                Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span>
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote alt="la cita" cite="http//de la cita de quien lo obrubimos">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+              illum odio a quis! Maxime iste veritatis quis! Similique esse
+              voluptate, suscipit quo praesentium dolor sint explicabo officiis
+              impedit earum ducimus.
+            </p>
+            <footer class="info-testimonial clearfix">
+              <img src="img/img/testimonial.jpg" alt="foto testimonial">
+              <cite>
+                Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span>
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote alt="la cita" cite="http//de la cita de quien lo obrubimos">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+              illum odio a quis! Maxime iste veritatis quis! Similique esse
+              voluptate, suscipit quo praesentium dolor sint explicabo officiis
+              impedit earum ducimus.
+            </p>
+            <footer class="info-testimonial clearfix">
+              <img src="img/img/testimonial.jpg" alt="foto testimonial">
+              <cite>
+                Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span>
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <!-- fin de  te stimonial -->
+    </section>
+    <!-- final del parallax -->
+    <div class="newsletter parallax">
+      <div class="contenido contenedor">
+        <p>Registrarse En Nuestra Conferencia</p>
+        <h3>Guitarra Andina</h3>
+        <a class="button transparente" href="#">Registro</a>
+      </div>
+    </div>
+    <!-- /*****************************/ -->
+    <!-- cuenta regresiva -->
+    <section class="seccion">
+      <h2>Faltan</h2>
+      <div class="cuenta-regresiva contenedor">
+        <ul class="clearfix">
+          <li>
+            <p class="numero">80</p>
+            Dias
+          </li>
+          <li>
+            <p class="numero">15</p>
+            Horas
+          </li>
+          <li>
+            <p class="numero">5</p>
+            Minutos
+          </li>
+          <li>
+            <p class="numero">30</p>
+            Segundos
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /*****************************/ -->
+    <!-- /*footer*/ -->
+    <footer class="site-footer">
+      <div class="contenido clearfix">
+        <div class="footer-informacion">
+          <h3>Sobre <span>Guitarra Andina</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+            sequi aperiam, tempore ipsa alias doloribus doloremque corrupti
+            numquam deserunt quis eligendi porro voluptas impedit fugit omnis
+            inventore labore perspiciatis reiciendis.
+          </p>
+        </div>
+        <div class="ultimos-tweets">
+          <h3>Últimos <span>Tweest</span></h3>
+          <ul>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+              illo obcaecati exercitationem est quibusdam, perferendis odio
+              officiis corrupti culpa itaque eius accusamus incidunt amet nobis
+              cum ipsum quis, nostrum sint commodi. Cupiditate, dolorum, porro
+              omnis sunt dignissimos id ducimus alias architecto tempore error
+              earum consectetur aspernatur harum iusto nesciunt officiis, illo
+              ut voluptatum et inventore! Dicta beatae repellat voluptatem
+              maiores officiis aliquam voluptatibus delectus sunt, vero
+              similique blanditiis ratione culpa ex illo praesentium quasi,
+              perferendis accusantium. Quam illum eos saepe aliquam incidunt
+              nesciunt, possimus dolorum rem dicta, facere, dolor doloribus
+              adipisci. Esse aliquam maiores dolorem facere quae dolor
+              laboriosam aspernatur!
+            </li>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+              minus.
+            </li>
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+              minus.
+            </li>
+          </ul>
+        </div>
+        <div class="menu">
+          <h3>Redes<span> Sociales</span></h3>
+          <nav class="redes-sociales">
+            <!--aqui  son los  iconos  -->
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </nav>
+        </div>
+      </div>
+      <p class="copyright">Todos Los Derechos Reservados</p>
+    </footer>
+    <!-- /*****************************/ -->
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mapas.js"></script>
+<!-- ****************************************************** -->
+
+<!-- ****************************************************** -->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
